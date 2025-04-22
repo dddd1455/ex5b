@@ -94,7 +94,7 @@ function convertTemperature(temperature, unit) {
         }
 
         const conversionResult = convertTemperature(t, u);
-        alert("Temperature is "+ conversionResult.temp +" in "+ conversionResult.unit);
+        $("#result").text("Temperature is "+ conversionResult.temp +" in "+ conversionResult.unit);
     });
 });
 }
